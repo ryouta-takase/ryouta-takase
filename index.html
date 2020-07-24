@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <link rel="stylesheet" href="index.css">
+      <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Document</title>
+  </head>
+  
+  <body>
+  <div class="main_imgBox">
+        <div class="main_img" style="background-image: url(https://f.uploader.xzy.pw/eu-prd/upload/20191108160744_61514c415a.jpg)"></div>
+        <div class="main_img" style="background-image: url(https://f.uploader.xzy.pw/eu-prd/upload/20191108160418_5165755153.jpg)"></div>
+               <div class="main_img" style="background-image: url(https://f.uploader.xzy.pw/eu-prd/upload/20191108160539_6f73696931.jpg)"></div>
+               <div class="main_img" style="background-image: url(https://f.uploader.xzy.pw/eu-prd/upload/20191108160447_6f6d664c4f.jpg)"></div> 
+               <div class="main_img" style="background-image: url(https://f.uploader.xzy.pw/eu-prd/upload/20191108161055_374e67765a.jpg)"></div>
+                   <div class="main_img" style="background-image: url(https://f.uploader.xzy.pw/eu-prd/upload/20191108161128_42466f414a.jpg)"></div>
+  </div>
+    <!-- <div class="main_imgBox">
+      <img src="https://f.uploader.xzy.pw/eu-prd/upload/20191108160744_61514c415a.jpg" alt="img" class="main_imgM">
+      <img src="https://f.uploader.xzy.pw/eu-prd/upload/20191108160418_5165755153.jpg">
+      <img src="https://f.uploader.xzy.pw/eu-prd/upload/20191108160539_6f73696931.jpg" alt="img" class="main_imgM">
+      <img src="https://f.uploader.xzy.pw/eu-prd/upload/20191108160447_6f6d664c4f.jpg" alt="img" class="main_imgM">
+      <img src="https://f.uploader.xzy.pw/eu-prd/upload/20191108161055_374e67765a.jpg" alt="img" class="main_imgM">
+      <img src="https://f.uploader.xzy.pw/eu-prd/upload/20191108161128_42466f414a.jpg" alt="img" class="main_imgM">
+    </div> -->
+    
+     <!-- タイピング -->
+     <div class="typing">
+      <div class="typed_wrap">
+          <h1><span class="typed"></span></h1> 
+      </div>
+     </div>
+
+    <!-- 手紙 -->
+    <div class="mail">
+      <img src="../images/mail.png">
+    </div>
+
+    <!-- フェードイン -->
+    <h1 class="ryouta">拝啓</h1>
+    <h1 class="ryoutata">一條 雛代様</h1>
+
+    <p class="ryouta">今日はお食事に来てくれてありがとう</p>
+    <p class="ryouta">雛代さんと出会えて、僕の人生は幸せに一転しました</p>
+    <p class="ryouta">今までの思い出を形に残しました<p>
+    <p class="ryouta">よかったら見てください</p>
+
+    <div class="after-meeting">
+      出会ってから今日で<span class="sample2b">1936日<span></span></span>
+    </div>
+
+    <div class="omoide">
+      <img src="../images/mother.island8.jpeg" class="c-sample" >
+    </div>
+
+    <div class="after-meeting">
+      付き合って今日で<span class="sample2b">853日<span></span></span>
+    </div>
+
+    <div class="omoide">
+      <img src="../images/mother.island12.jpeg" class="c-sample" >
+    </div>
+
+    <div class="after-meeting">
+      遠距離恋愛を始めて<span class="sample2b">848日<span></span></span>
+    </div>
+
+    <div class="omoide">
+      <img src="../images/mother.island11.jpeg" class="c-sample" >
+    </div>
+
+    <p class="ryouta">なかなか会えなかったけど、いつも信じてくれてありがとう</p>
+    <p class="ryouta">いつもたくさん話を聞いてくれてありがとう</p>
+    <p class="ryouta">たくさんのありがとうをありがとう</p>
+
+    <p class="ryouta">これからもずっとずっと一緒にいようね</p>
+    <div class=you>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/PreGcTt1KZw?start=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <!-- タイピング -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+
+    <script>
+        $(function() {
+            $(".typed").typed({
+                strings: ["Hello Hinayo", "Thank you for watching My Portfolio","Let's scroll down"],
+                typeSpeed: 100,
+                startDelay: 1000,
+                backSpeed: 20,
+                loop: true,
+                loopCount: 3,
+                showCursor: false,
+                backDelay: 500,
+            });
+        });
+    </script>
+
+  <!-- フェードイン -->
+    <script>
+        $(function(){
+            ScrollReveal().reveal('.ryouta',{ duration: '2000', viewFactor: '0.5', reset: 'true'});
+        });
+    </script>
+    <script>
+      $(function(){
+          ScrollReveal().reveal('.ryoutata',{ duration: '2000', viewFactor: '0.5', reset: 'true'});
+      });
+    </script>
+    <script>
+      $(function(){
+          ScrollReveal().reveal('.mail',{ duration: '3000', viewFactor: '0.3', reset: 'true'});
+      });
+    </script>
+    <!-- <script>
+      $(function(){
+          ScrollReveal().reveal('.omoide',{ duration: '1000', viewFactor: '0.9', reset: 'true'});
+      }); -->
+    </script>
+  </body>
+</html>
